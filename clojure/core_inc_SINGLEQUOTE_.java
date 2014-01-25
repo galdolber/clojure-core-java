@@ -1,0 +1,14 @@
+package clojure;
+
+import clojure.lang.*;
+
+public final class core_inc_SINGLEQUOTE_ extends clojure.lang.AFunction {
+ static {
+ }
+ public core_inc_SINGLEQUOTE_() {
+  super();
+ }
+ public java.lang.Object invoke(java.lang.Object x1) {
+  return ((java.lang.Number)clojure.lang.Numbers.incP(((java.lang.Object)x1)));
+ }
+}

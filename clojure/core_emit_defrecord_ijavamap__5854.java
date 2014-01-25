@@ -1,0 +1,137 @@
+package clojure;
+
+import clojure.lang.*;
+
+public final class core_emit_defrecord_ijavamap__5854 extends clojure.lang.AFunction {
+ public static final clojure.lang.Var const__0;
+ public static final java.lang.Object const__1;
+ public static final java.lang.Object const__2;
+ public static final clojure.lang.Var const__3;
+ public static final clojure.lang.Symbol const__4;
+ public static final clojure.lang.Symbol const__5;
+ public static final clojure.lang.Var const__6;
+ public static final clojure.lang.Var const__7;
+ public static final clojure.lang.Var const__8;
+ public static final clojure.lang.Symbol const__9;
+ public static final clojure.lang.Var const__10;
+ public static final clojure.lang.Var const__11;
+ public static final clojure.lang.Symbol const__12;
+ public static final clojure.lang.Symbol const__13;
+ public static final clojure.lang.Symbol const__14;
+ public static final clojure.lang.Symbol const__15;
+ public static final clojure.lang.Symbol const__16;
+ public static final clojure.lang.Symbol const__17;
+ public static final clojure.lang.Symbol const__18;
+ public static final clojure.lang.Symbol const__19;
+ public static final clojure.lang.Symbol const__20;
+ public static final clojure.lang.Symbol const__21;
+ public static final clojure.lang.Symbol const__22;
+ public static final clojure.lang.Var const__23;
+ public static final clojure.lang.Symbol const__24;
+ public static final clojure.lang.Symbol const__25;
+ public static final clojure.lang.Symbol const__26;
+ public static final clojure.lang.Symbol const__27;
+ public static final clojure.lang.Symbol const__28;
+ public static final clojure.lang.Symbol const__29;
+ public static final clojure.lang.Symbol const__30;
+ public static final clojure.lang.Symbol const__31;
+ public static final clojure.lang.Symbol const__32;
+ public static final clojure.lang.Symbol const__33;
+ public static final clojure.lang.Symbol const__34;
+ public static final clojure.lang.Symbol const__35;
+ public static final clojure.lang.Symbol const__36;
+ public static final clojure.lang.Symbol const__37;
+ public static final clojure.lang.Symbol const__38;
+ public static final clojure.lang.Symbol const__39;
+ public static final clojure.lang.Symbol const__40;
+ public static final clojure.lang.Symbol const__41;
+ public static final clojure.lang.Symbol const__42;
+ public static final clojure.lang.Symbol const__43;
+ public static final clojure.lang.Symbol const__44;
+ public static final clojure.lang.Symbol const__45;
+ public static final clojure.lang.Symbol const__46;
+ public static final clojure.lang.Symbol const__47;
+ public static final clojure.lang.Symbol const__48;
+ public static final clojure.lang.Symbol const__49;
+ public static final clojure.lang.Symbol const__50;
+ public static final clojure.lang.Symbol const__51;
+ public static final clojure.lang.Symbol const__52;
+ public static final clojure.lang.Symbol const__53;
+ public static final clojure.lang.Symbol const__54;
+ public static final clojure.lang.Symbol const__55;
+ public static final clojure.lang.Symbol const__56;
+ public static final clojure.lang.Symbol const__57;
+ public static final clojure.lang.Symbol const__58;
+ static {
+  const__0 = (clojure.lang.Var)RT.var("clojure.core", "nth");
+  const__1 = (java.lang.Object)0L;
+  const__2 = (java.lang.Object)1L;
+  const__3 = (clojure.lang.Var)RT.var("clojure.core", "conj");
+  const__4 = (clojure.lang.Symbol)Symbol.intern(null, "java.util.Map");
+  const__5 = (clojure.lang.Symbol)Symbol.intern(null, "java.io.Serializable");
+  const__6 = (clojure.lang.Var)RT.var("clojure.core", "seq");
+  const__7 = (clojure.lang.Var)RT.var("clojure.core", "concat");
+  const__8 = (clojure.lang.Var)RT.var("clojure.core", "list");
+  const__9 = (clojure.lang.Symbol)Symbol.intern("clojure.core", "size");
+  const__10 = (clojure.lang.Var)RT.var("clojure.core", "apply");
+  const__11 = (clojure.lang.Var)RT.var("clojure.core", "vector");
+  const__12 = (clojure.lang.Symbol)Symbol.intern(null, "this__5804__auto__");
+  const__13 = (clojure.lang.Symbol)Symbol.intern(null, ".count");
+  const__14 = (clojure.lang.Symbol)Symbol.intern("clojure.core", "isEmpty");
+  const__15 = (clojure.lang.Symbol)Symbol.intern(null, "this__5805__auto__");
+  const__16 = (clojure.lang.Symbol)Symbol.intern("clojure.core", "=");
+  const__17 = (clojure.lang.Symbol)Symbol.intern(null, ".count");
+  const__18 = (clojure.lang.Symbol)Symbol.intern("clojure.core", "containsValue");
+  const__19 = (clojure.lang.Symbol)Symbol.intern(null, "this__5806__auto__");
+  const__20 = (clojure.lang.Symbol)Symbol.intern(null, "v__5807__auto__");
+  const__21 = (clojure.lang.Symbol)Symbol.intern("clojure.core", "boolean");
+  const__22 = (clojure.lang.Symbol)Symbol.intern("clojure.core", "some");
+  const__23 = (clojure.lang.Var)RT.var("clojure.core", "hash-set");
+  const__24 = (clojure.lang.Symbol)Symbol.intern("clojure.core", "vals");
+  const__25 = (clojure.lang.Symbol)Symbol.intern("clojure.core", "get");
+  const__26 = (clojure.lang.Symbol)Symbol.intern(null, "this__5808__auto__");
+  const__27 = (clojure.lang.Symbol)Symbol.intern(null, "k__5809__auto__");
+  const__28 = (clojure.lang.Symbol)Symbol.intern(null, ".valAt");
+  const__29 = (clojure.lang.Symbol)Symbol.intern("clojure.core", "put");
+  const__30 = (clojure.lang.Symbol)Symbol.intern(null, "this__5810__auto__");
+  const__31 = (clojure.lang.Symbol)Symbol.intern(null, "k__5811__auto__");
+  const__32 = (clojure.lang.Symbol)Symbol.intern(null, "v__5812__auto__");
+  const__33 = (clojure.lang.Symbol)Symbol.intern(null, "throw");
+  const__34 = (clojure.lang.Symbol)Symbol.intern(null, "java.lang.UnsupportedOperationException.");
+  const__35 = (clojure.lang.Symbol)Symbol.intern("clojure.core", "remove");
+  const__36 = (clojure.lang.Symbol)Symbol.intern(null, "this__5813__auto__");
+  const__37 = (clojure.lang.Symbol)Symbol.intern(null, "k__5814__auto__");
+  const__38 = (clojure.lang.Symbol)Symbol.intern(null, "throw");
+  const__39 = (clojure.lang.Symbol)Symbol.intern(null, "java.lang.UnsupportedOperationException.");
+  const__40 = (clojure.lang.Symbol)Symbol.intern("clojure.core", "putAll");
+  const__41 = (clojure.lang.Symbol)Symbol.intern(null, "this__5815__auto__");
+  const__42 = (clojure.lang.Symbol)Symbol.intern(null, "m__5816__auto__");
+  const__43 = (clojure.lang.Symbol)Symbol.intern(null, "throw");
+  const__44 = (clojure.lang.Symbol)Symbol.intern(null, "java.lang.UnsupportedOperationException.");
+  const__45 = (clojure.lang.Symbol)Symbol.intern("clojure.core", "clear");
+  const__46 = (clojure.lang.Symbol)Symbol.intern(null, "this__5817__auto__");
+  const__47 = (clojure.lang.Symbol)Symbol.intern(null, "throw");
+  const__48 = (clojure.lang.Symbol)Symbol.intern(null, "java.lang.UnsupportedOperationException.");
+  const__49 = (clojure.lang.Symbol)Symbol.intern("clojure.core", "keySet");
+  const__50 = (clojure.lang.Symbol)Symbol.intern(null, "this__5818__auto__");
+  const__51 = (clojure.lang.Symbol)Symbol.intern("clojure.core", "set");
+  const__52 = (clojure.lang.Symbol)Symbol.intern("clojure.core", "keys");
+  const__53 = (clojure.lang.Symbol)Symbol.intern("clojure.core", "values");
+  const__54 = (clojure.lang.Symbol)Symbol.intern(null, "this__5819__auto__");
+  const__55 = (clojure.lang.Symbol)Symbol.intern("clojure.core", "vals");
+  const__56 = (clojure.lang.Symbol)Symbol.intern("clojure.core", "entrySet");
+  const__57 = (clojure.lang.Symbol)Symbol.intern(null, "this__5820__auto__");
+  const__58 = (clojure.lang.Symbol)Symbol.intern("clojure.core", "set");
+ }
+ public core_emit_defrecord_ijavamap__5854() {
+  super();
+ }
+ public java.lang.Object invoke(java.lang.Object p__58531) {
+  {
+   Object vec__58552 = p__58531;
+   Object i3 = ((java.lang.Object)clojure.lang.RT.nth(((java.lang.Object)vec__58552), (int)RT.intCast(0L), ((java.lang.Object)null)));
+   Object m4 = ((java.lang.Object)clojure.lang.RT.nth(((java.lang.Object)vec__58552), (int)RT.intCast(1L), ((java.lang.Object)null)));
+   return RT.vector(((IFn)const__3.getRawRoot()).invoke(i3, const__4, const__5), ((IFn)const__3.getRawRoot()).invoke(m4, ((IFn)const__6.getRawRoot()).invoke(((IFn)const__7.getRawRoot()).invoke(((IFn)const__8.getRawRoot()).invoke(const__9), ((IFn)const__8.getRawRoot()).invoke(((IFn)const__10.getRawRoot()).invoke(const__11.getRawRoot(), ((IFn)const__6.getRawRoot()).invoke(((IFn)const__7.getRawRoot()).invoke(((IFn)const__8.getRawRoot()).invoke(const__12))))), ((IFn)const__8.getRawRoot()).invoke(((IFn)const__6.getRawRoot()).invoke(((IFn)const__7.getRawRoot()).invoke(((IFn)const__8.getRawRoot()).invoke(const__13), ((IFn)const__8.getRawRoot()).invoke(const__12)))))), ((IFn)const__6.getRawRoot()).invoke(((IFn)const__7.getRawRoot()).invoke(((IFn)const__8.getRawRoot()).invoke(const__14), ((IFn)const__8.getRawRoot()).invoke(((IFn)const__10.getRawRoot()).invoke(const__11.getRawRoot(), ((IFn)const__6.getRawRoot()).invoke(((IFn)const__7.getRawRoot()).invoke(((IFn)const__8.getRawRoot()).invoke(const__15))))), ((IFn)const__8.getRawRoot()).invoke(((IFn)const__6.getRawRoot()).invoke(((IFn)const__7.getRawRoot()).invoke(((IFn)const__8.getRawRoot()).invoke(const__16), ((IFn)const__8.getRawRoot()).invoke(const__1), ((IFn)const__8.getRawRoot()).invoke(((IFn)const__6.getRawRoot()).invoke(((IFn)const__7.getRawRoot()).invoke(((IFn)const__8.getRawRoot()).invoke(const__17), ((IFn)const__8.getRawRoot()).invoke(const__15))))))))), ((IFn)const__6.getRawRoot()).invoke(((IFn)const__7.getRawRoot()).invoke(((IFn)const__8.getRawRoot()).invoke(const__18), ((IFn)const__8.getRawRoot()).invoke(((IFn)const__10.getRawRoot()).invoke(const__11.getRawRoot(), ((IFn)const__6.getRawRoot()).invoke(((IFn)const__7.getRawRoot()).invoke(((IFn)const__8.getRawRoot()).invoke(const__19), ((IFn)const__8.getRawRoot()).invoke(const__20))))), ((IFn)const__8.getRawRoot()).invoke(((IFn)const__6.getRawRoot()).invoke(((IFn)const__7.getRawRoot()).invoke(((IFn)const__8.getRawRoot()).invoke(const__21), ((IFn)const__8.getRawRoot()).invoke(((IFn)const__6.getRawRoot()).invoke(((IFn)const__7.getRawRoot()).invoke(((IFn)const__8.getRawRoot()).invoke(const__22), ((IFn)const__8.getRawRoot()).invoke(((IFn)const__10.getRawRoot()).invoke(const__23.getRawRoot(), ((IFn)const__6.getRawRoot()).invoke(((IFn)const__7.getRawRoot()).invoke(((IFn)const__8.getRawRoot()).invoke(const__20))))), ((IFn)const__8.getRawRoot()).invoke(((IFn)const__6.getRawRoot()).invoke(((IFn)const__7.getRawRoot()).invoke(((IFn)const__8.getRawRoot()).invoke(const__24), ((IFn)const__8.getRawRoot()).invoke(const__19)))))))))))), ((IFn)const__6.getRawRoot()).invoke(((IFn)const__7.getRawRoot()).invoke(((IFn)const__8.getRawRoot()).invoke(const__25), ((IFn)const__8.getRawRoot()).invoke(((IFn)const__10.getRawRoot()).invoke(const__11.getRawRoot(), ((IFn)const__6.getRawRoot()).invoke(((IFn)const__7.getRawRoot()).invoke(((IFn)const__8.getRawRoot()).invoke(const__26), ((IFn)const__8.getRawRoot()).invoke(const__27))))), ((IFn)const__8.getRawRoot()).invoke(((IFn)const__6.getRawRoot()).invoke(((IFn)const__7.getRawRoot()).invoke(((IFn)const__8.getRawRoot()).invoke(const__28), ((IFn)const__8.getRawRoot()).invoke(const__26), ((IFn)const__8.getRawRoot()).invoke(const__27)))))), ((IFn)const__6.getRawRoot()).invoke(((IFn)const__7.getRawRoot()).invoke(((IFn)const__8.getRawRoot()).invoke(const__29), ((IFn)const__8.getRawRoot()).invoke(((IFn)const__10.getRawRoot()).invoke(const__11.getRawRoot(), ((IFn)const__6.getRawRoot()).invoke(((IFn)const__7.getRawRoot()).invoke(((IFn)const__8.getRawRoot()).invoke(const__30), ((IFn)const__8.getRawRoot()).invoke(const__31), ((IFn)const__8.getRawRoot()).invoke(const__32))))), ((IFn)const__8.getRawRoot()).invoke(((IFn)const__6.getRawRoot()).invoke(((IFn)const__7.getRawRoot()).invoke(((IFn)const__8.getRawRoot()).invoke(const__33), ((IFn)const__8.getRawRoot()).invoke(((IFn)const__6.getRawRoot()).invoke(((IFn)const__7.getRawRoot()).invoke(((IFn)const__8.getRawRoot()).invoke(const__34))))))))), ((IFn)const__6.getRawRoot()).invoke(((IFn)const__7.getRawRoot()).invoke(((IFn)const__8.getRawRoot()).invoke(const__35), ((IFn)const__8.getRawRoot()).invoke(((IFn)const__10.getRawRoot()).invoke(const__11.getRawRoot(), ((IFn)const__6.getRawRoot()).invoke(((IFn)const__7.getRawRoot()).invoke(((IFn)const__8.getRawRoot()).invoke(const__36), ((IFn)const__8.getRawRoot()).invoke(const__37))))), ((IFn)const__8.getRawRoot()).invoke(((IFn)const__6.getRawRoot()).invoke(((IFn)const__7.getRawRoot()).invoke(((IFn)const__8.getRawRoot()).invoke(const__38), ((IFn)const__8.getRawRoot()).invoke(((IFn)const__6.getRawRoot()).invoke(((IFn)const__7.getRawRoot()).invoke(((IFn)const__8.getRawRoot()).invoke(const__39))))))))), ((IFn)const__6.getRawRoot()).invoke(((IFn)const__7.getRawRoot()).invoke(((IFn)const__8.getRawRoot()).invoke(const__40), ((IFn)const__8.getRawRoot()).invoke(((IFn)const__10.getRawRoot()).invoke(const__11.getRawRoot(), ((IFn)const__6.getRawRoot()).invoke(((IFn)const__7.getRawRoot()).invoke(((IFn)const__8.getRawRoot()).invoke(const__41), ((IFn)const__8.getRawRoot()).invoke(const__42))))), ((IFn)const__8.getRawRoot()).invoke(((IFn)const__6.getRawRoot()).invoke(((IFn)const__7.getRawRoot()).invoke(((IFn)const__8.getRawRoot()).invoke(const__43), ((IFn)const__8.getRawRoot()).invoke(((IFn)const__6.getRawRoot()).invoke(((IFn)const__7.getRawRoot()).invoke(((IFn)const__8.getRawRoot()).invoke(const__44))))))))), ((IFn)const__6.getRawRoot()).invoke(((IFn)const__7.getRawRoot()).invoke(((IFn)const__8.getRawRoot()).invoke(const__45), ((IFn)const__8.getRawRoot()).invoke(((IFn)const__10.getRawRoot()).invoke(const__11.getRawRoot(), ((IFn)const__6.getRawRoot()).invoke(((IFn)const__7.getRawRoot()).invoke(((IFn)const__8.getRawRoot()).invoke(const__46))))), ((IFn)const__8.getRawRoot()).invoke(((IFn)const__6.getRawRoot()).invoke(((IFn)const__7.getRawRoot()).invoke(((IFn)const__8.getRawRoot()).invoke(const__47), ((IFn)const__8.getRawRoot()).invoke(((IFn)const__6.getRawRoot()).invoke(((IFn)const__7.getRawRoot()).invoke(((IFn)const__8.getRawRoot()).invoke(const__48))))))))), ((IFn)const__6.getRawRoot()).invoke(((IFn)const__7.getRawRoot()).invoke(((IFn)const__8.getRawRoot()).invoke(const__49), ((IFn)const__8.getRawRoot()).invoke(((IFn)const__10.getRawRoot()).invoke(const__11.getRawRoot(), ((IFn)const__6.getRawRoot()).invoke(((IFn)const__7.getRawRoot()).invoke(((IFn)const__8.getRawRoot()).invoke(const__50))))), ((IFn)const__8.getRawRoot()).invoke(((IFn)const__6.getRawRoot()).invoke(((IFn)const__7.getRawRoot()).invoke(((IFn)const__8.getRawRoot()).invoke(const__51), ((IFn)const__8.getRawRoot()).invoke(((IFn)const__6.getRawRoot()).invoke(((IFn)const__7.getRawRoot()).invoke(((IFn)const__8.getRawRoot()).invoke(const__52), ((IFn)const__8.getRawRoot()).invoke(const__50))))))))), ((IFn)const__6.getRawRoot()).invoke(((IFn)const__7.getRawRoot()).invoke(((IFn)const__8.getRawRoot()).invoke(const__53), ((IFn)const__8.getRawRoot()).invoke(((IFn)const__10.getRawRoot()).invoke(const__11.getRawRoot(), ((IFn)const__6.getRawRoot()).invoke(((IFn)const__7.getRawRoot()).invoke(((IFn)const__8.getRawRoot()).invoke(const__54))))), ((IFn)const__8.getRawRoot()).invoke(((IFn)const__6.getRawRoot()).invoke(((IFn)const__7.getRawRoot()).invoke(((IFn)const__8.getRawRoot()).invoke(const__55), ((IFn)const__8.getRawRoot()).invoke(const__54)))))), ((IFn)const__6.getRawRoot()).invoke(((IFn)const__7.getRawRoot()).invoke(((IFn)const__8.getRawRoot()).invoke(const__56), ((IFn)const__8.getRawRoot()).invoke(((IFn)const__10.getRawRoot()).invoke(const__11.getRawRoot(), ((IFn)const__6.getRawRoot()).invoke(((IFn)const__7.getRawRoot()).invoke(((IFn)const__8.getRawRoot()).invoke(const__57))))), ((IFn)const__8.getRawRoot()).invoke(((IFn)const__6.getRawRoot()).invoke(((IFn)const__7.getRawRoot()).invoke(((IFn)const__8.getRawRoot()).invoke(const__58), ((IFn)const__8.getRawRoot()).invoke(const__57))))))));
+  }
+ }
+}
